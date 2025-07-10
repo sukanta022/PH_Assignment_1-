@@ -16,3 +16,47 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.primary-color{
+    color:rgba(78, 71, 255, 1)
+}
+
+.primary-color-bg{
+    background-color:rgba(78, 71, 255, 1)
+}
+
+.color-FFFFFF{
+    color:#FFFFFF;
+}
+
+/* header section styles */
+
+header{
+    height: 720px;
+    width: 100%;
+    background-image: linear-gradient(rgba(78, 71, 255, 0.01),rgba(78, 71, 255, 0.01)),url(../Assets/Hero-bg.png);
+    background-size: cover;
+}
+
+/* navbar styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+nav h1{
+    font-size: 34px;
+}
+
+nav button{
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
