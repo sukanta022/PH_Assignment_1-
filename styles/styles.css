@@ -256,3 +256,39 @@ nav a{
 .extra_work img{
     border-radius: 48px;
 }
+
+/* newsletter section design */
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+    margin-bottom: 14px;
+    height: 632px;
+}
+
+.newsletter p{
+    color: rgba(0, 0, 0, 1);
+    font-size: 97px;
+    font-weight: bold;
+    width: 528px;
+}
+
+form input[type="email"], form input[type="text"],  form textarea{
+    width: 497px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+    border-style: none;
+    padding: 20px 0px;
+    padding-left: 32px;
+    font-size: 20px;
+}
+
+form button{
+    width: 530px;
+}
+
+
