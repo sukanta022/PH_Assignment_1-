@@ -29,9 +29,14 @@
     color:#FFFFFF;
 }
 
+.color-252432{
+    color: #252432;
+}
+
 .btn-primary{
     background-color:rgba(78, 71, 255, 1);
     color: #FFFFFF;
+    font-size: 16px;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
@@ -85,4 +90,33 @@ nav a{
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 37px;
+}
+
+/* action section design */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 150px;
+    height: 330px;
+    padding: 0px 10px;
+}
+.action-content{
+    width: 520px;
+}
+.action-content h2{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.action-content p{
+    font-size: 24px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.action img{
+    border-radius: 48px;
 }
