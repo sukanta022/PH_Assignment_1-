@@ -222,3 +222,37 @@ nav a{
 .date{
     opacity: 0.5;
 }
+
+/* extra_work section design */
+
+.extra_work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 137px 150px;
+    margin-bottom: 97px;
+    height: 695px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+}
+
+.extra_work h1{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+}
+
+.extra_work p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.extra_work button{
+    margin-bottom: 10px;
+}
+
+.extra_work img{
+    border-radius: 48px;
+}
