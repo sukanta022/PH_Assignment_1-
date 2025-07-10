@@ -29,6 +29,19 @@
     color:#FFFFFF;
 }
 
+.btn-primary{
+    background-color:rgba(78, 71, 255, 1);
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
+}
+
 /* header section styles */
 
 header{
@@ -50,13 +63,26 @@ nav h1{
     font-size: 34px;
 }
 
-nav button{
-    padding: 12px 36px;
-    border: none;
-    border-radius: 10px;
-}
-
 nav a{
     text-decoration: none;
 }
 
+.banner{
+    margin: 0px 150px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    width: 905px;
+    height: 237px;
+    text-align: center;
+}
+
+.banner-content h1{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 37px;
+}
