@@ -18,7 +18,7 @@
 }
 
 .primary-color{
-    color:rgba(78, 71, 255, 1)
+    color:rgba(78, 71, 255, 1);
 }
 
 .primary-color-bg{
@@ -113,10 +113,52 @@ nav a{
 
 .action-content p{
     font-size: 24px;
-    color: #252432;
+    color: rgba(37, 36, 50, 0.5);
     margin-bottom: 23px;
 }
 
 .action img{
     border-radius: 48px;
+}
+
+.productive_user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 116px 150px;
+    margin-bottom: 137px;
+    height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
+}
+
+.productive_user_count{
+    display: flex;
+    justify-content: space-between;
+    width: 856px;
+    padding: 0px 185px;
+}
+
+.productive_user h2{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.count{
+    width: 180px;
+    height: 121px;
+    text-align: center;
+}
+
+.number{
+    color: rgba(78, 71, 255, 1);
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.title{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
 }
