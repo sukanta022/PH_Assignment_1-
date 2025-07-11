@@ -47,7 +47,7 @@
 
 .btn-primary:hover {
     background-image: linear-gradient(to right, #61f4de, #6e78ff); 
-
+    font-weight: bold;
     transform:scale(1.08); 
 }
 
@@ -121,7 +121,7 @@ nav a{
     align-items: center;
     margin: 116px 150px;
     height: 330px;
-    padding: 0px 10px;
+    padding: 0px 100px;
 }
 .action-content{
     width: 520px;
@@ -200,8 +200,8 @@ nav a{
 .review-cards{
     width: 100%;
     display: flex;
-    gap: 20px;
-    background-color: #FFFFFF;
+    justify-content: space-between;
+    background-color: #F5F8FF;
 }
 
 .card{
