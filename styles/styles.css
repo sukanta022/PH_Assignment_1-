@@ -17,6 +17,8 @@
   font-style: normal;
 }
 
+/* shared class */
+
 .primary-color{
     color:rgba(78, 71, 255, 1);
 }
@@ -43,8 +45,18 @@
     cursor: pointer;
 }
 
+.btn-primary:hover {
+    background-image: linear-gradient(to right, #61f4de, #6e78ff); 
+
+    transform:scale(1.08); 
+}
+
 .text-center{
     text-align: center;
+}
+
+body{
+    background-color: #F5F8FF;
 }
 
 /* header section styles */
@@ -64,8 +76,17 @@ nav{
     padding: 50px 150px;
 }
 
-nav h1{
+nav p{
     font-size: 34px;
+    font-weight: 900;
+}
+
+nav p:hover{
+    background: linear-gradient(to right, #61f4de, #6e78ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 nav a{
@@ -307,6 +328,14 @@ footer{
     font-weight: bold;
 }
 
+.logo:hover{
+    background: linear-gradient(to right, #61f4de, #6e78ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
 .advertise_description{
     font-size: 16px;
     color: rgba(137, 135, 161, 1);
@@ -324,5 +353,3 @@ footer div a{
     text-decoration: none;
     color: rgba(137, 135, 161, 1);
 }
-
-
