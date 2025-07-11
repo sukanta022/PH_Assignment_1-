@@ -353,3 +353,11 @@ footer div a{
     text-decoration: none;
     color: rgba(137, 135, 161, 1);
 }
+
+footer div a:hover{
+    background: linear-gradient(to right, #61f4de, #6e78ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
